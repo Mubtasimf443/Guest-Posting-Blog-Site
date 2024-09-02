@@ -1,0 +1,40 @@
+/* بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ  */
+
+
+* {
+  padding: 0em;
+  margin: 0px;
+  font-family: "SUSE", sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+.heading_section {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  padding: 2em 0px;
+}
+
+.heading_section > h2 {
+  font-size: var(--h2--font);
+}
+
+
+
+
+
+
+
+
+
+
+
+

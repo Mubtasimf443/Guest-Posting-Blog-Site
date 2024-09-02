@@ -1,0 +1,24 @@
+/* بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ  */
+
+footer {
+
+  background:var(--second-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:1.4em 1em;
+  column-gap: 0.5em;
+}
+
+
+footer > div  {
+  width:28%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+

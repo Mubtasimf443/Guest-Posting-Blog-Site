@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>  <!--  بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ  InshaAllah -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Create A Blog | Mubtasim App </title>
+  {{>links}}
+  <link rel="stylesheet" href="/file/css/PostPage.css">
+  <link rel="stylesheet" href="../PostPage.css">
+</head>
+
+<body>
+<!-- Header -->
+{{>header}}
+
+<main> 
+
+<section>
+  <fieldset>
+    <legend>Create A Blog </legend>
+    <h2>Please Provide the info </h2>
+    
+     <div class="lebal_box">
+       <div>
+         <label for="name_input">Image</label>
+        </div>
+      
+       <div class="">
+        <label  for="img_input">
+          <i class="fa-solid fa-cloud-arrow-up"></i> &nbsp; Upload Image
+          <input type="file" style="display: none;" name="" id="img_input">
+        </label>
+       </div>
+     </div>
+    
+    <div class="lebal_box">
+      <div>
+        <label for="name_input">Name</label>
+        <span>
+          Good Name Will rank your Post better in Google
+        </span>
+      </div>
+      <div class="">
+        <input placeholder="What is Cross-origin-resourse-sharing-policy" id="name_input" type="text">
+      </div>
+    </div>
+    
+    <div class="lebal_box">
+      <div>
+        <label for="name_input">Cetegory</label>
+        <span>
+         We will use Cetegory with Ai, and It will make your 
+        </span>
+      </div>
+      <div class="">
+      <select name="" id="cetegory_select">
+        <option value="uncategorized">
+          Uncategorized
+        </option>
+        <option value="Food">Food</option>
+        <option value="Sports">Sports</option>
+        <option value="Education">Education</option>
+        <option value="computer_science">
+          computer Science 
+        </option>
+      </select>
+      </div>
+      
+      
+    </div>
+   
+   
+  
+  </fieldset>
+
+  
+  
+  
+  
+  
+  
+</section>
+
+
+
+
+
+
+</main>
+
+
+<!-- Footer -->
+{{>footer}}
+</body>
+</html>
