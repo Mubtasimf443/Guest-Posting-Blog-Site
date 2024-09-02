@@ -1,7 +1,7 @@
 /*  بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ  Insha Allah */
 
 import { Router } from "express";
-import { checkSignUpData } from "../../midleware/checkSignupdata.js";
+import { checkSignUpData } from "../midleware/checkSignupdata.js";
 import { signUpFunction } from "../utils/auth/Signup.js";
 import { loginApiFunc } from "../utils/auth/loginApiFunc.js";
 import { VarificationApiFunc } from "../utils/auth/varification.js";
